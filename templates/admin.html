@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="static/vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="static/vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="static/vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="static/vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="static/resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="static/resources/css/queries.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" rel="stylesheet" type="text/css">
+    <title>Admin</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+        </nav>
+        <div class="hero-text-box">
+            <h1>Welcome, Admin</h1><br>
+        </div>
+
+    </header>
+
+    <section>
+
+
+        <div id="wrapper">
+            <table id="keywords" cellspacing="10" cellpadding="0">
+                <thead>
+                    <tr>
+                        <th><span>Name</span></th>
+                        <th><span>Email</span></th>
+                        <th><span>City</span></th>
+                        <th><span>School</span></th>
+                        <th><span>Interest</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="lalign btn1"><a href="{{ url_for('response') }}">Farida Olia</a></td>
+                        <td>farruolia@gmail.com</td>
+                        <td>Mumbai</td>
+                        <td>TSEC</td>
+                        <td>Dance</td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="lalign btn2"><a href="{{ url_for('response') }}">Saisha Chhabria</a></td>
+                        <td>saisha98@gmail.com</td>
+                        <td>Mumbai</td>
+                        <td>DJS</td>
+                        <td>Coding</td>
+                    </tr>
+                   
+                    <tr>
+                        <td class="lalign btn3"><a href="{{ url_for('response') }}">Tanay Punjabi</a></td>
+                        <td>tanaypunjabi@gmail.com</td>
+                        <td>Mumabi</td>
+                        <td>AVM</td>
+                        <td>Running</td>
+                    </tr>
+
+                    <tr>
+                        <td class="lalign btn4"><a href="{{ url_for('response') }}">Moksh Jain</a></td>
+                        <td>mokshjain98@gmail.com</td>
+                        <td>Mumbai</td>
+                        <td>DJSH</td>
+                        <td>Awesomneness</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="static/vendors/js/jquery.waypoints.min.js"></script>
+    <script src="static/resources/js/script.js"></script>
+
+</body>
+
+</html>

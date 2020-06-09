@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="static/vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="static/vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="static/vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="static/vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="static/resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="static/resources/css/queries.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+
+    <title>The Apprentice Project</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="row" id="stick">
+                <!--
+                    <img src="resources/img/logo-white.png" alt="Omnifood logo" class="logo">
+                    <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black">
+-->
+                <ul class="main-nav js--main-nav">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#cities">Our cities</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1>The Apprentice Project</h1><br>
+            <a class="btn btn-full js--scroll-to-plans" href="{{ url_for('form1') }}">I am a Volunteer</a>
+            <a class="btn btn-ghost js--scroll-to-start" href="{{ url_for('admin') }}">I am an Administrator</a>
+        </div>
+
+    </header>
+
+    <section class="section-features js--section-features" id="about">
+        <div class="row">
+            <h2>What we Do!</h2>
+            <p class="long-copy">
+                The Apprentice Project's (TAP) vision is to empower children in low-income schools to realise who they are and achieve what they want to be.<br><br>
+                We aim to do this by building life-skills (Confidence &amp; Communication, Critical thinking, Creativity, Collaboration, and Self-realisation), and enabling real world exposure &amp; opportunities using the child’s passion (Visual arts, Performance arts, Sports, or Technical arts) as the medium.
+            </p>
+        </div>
+
+        <!--<div class="row js--wp-1">
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-infinite-outline icon-big"></i>
+                    <h3>Up to 365 days/year</h3>
+                    <p>
+                        Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-stopwatch-outline icon-big"></i>
+                    <h3>Ready in 20 minutes</h3>
+                    <p>
+                        You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-nutrition-outline icon-big"></i>
+                    <h3>100% organic</h3>
+                    <p>
+                        All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-cart-outline icon-big"></i>
+                    <h3>Order anything</h3>
+                    <p>
+                        We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!
+                    </p>
+                </div>
+            </div>   -->
+    </section>
+
+    <section class="section-cities" id="cities">
+        <div class="row">
+            <h2>We're currently in these cities</h2>
+        </div>
+        <div class="row js--wp-3">
+
+            <div class="col span-1-of-2 box">
+                <img src="static/resources/img/mumbai.jpg" alt="Mumbai">
+                <h3>Mumbai</h3>
+                <div class="city-feature">
+                    <i class="ion-ios-person icon-small"></i>
+                    250+ Volunteers
+                </div>
+                <div class="city-feature">
+                    <i class="ion-ios-star icon-small"></i>
+                    11 Schools
+                </div>
+                <div class="city-feature">
+                    <i class="ion-social-twitter icon-small"></i>
+                    <a href="#">@otap_mumbai</a>
+                </div>
+            </div>
+            <div class="col span-1-of-2 box">
+                <img src="static/resources/img/pune.jpg" alt="Pune">
+                <h3>Pune</h3>
+                <div class="city-feature">
+                    <i class="ion-ios-person icon-small"></i>
+                    120+ Volunteers
+                </div>
+                <div class="city-feature">
+                    <i class="ion-ios-star icon-small"></i>
+                    5 Schools
+                </div>
+                <div class="city-feature">
+                    <i class="ion-social-twitter icon-small"></i>
+                    <a href="#">@tap_pune</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section-form" id="contact">
+        <div class="row">
+            <h2>We're happy to hear from you</h2>
+        </div>
+        <div class="row">
+            
+            <p class="cu">Email: abc@gmail.com</p>
+            <p class="cu">Contact: +91 9892939000</p>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#cities">Our cities</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="static/vendors/js/jquery.waypoints.min.js"></script>
+    <script src="static/resources/js/script.js"></script>
+
+</body>
+</html>
